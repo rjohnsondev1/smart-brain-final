@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 // import Particles from 'react-particles-js';
 import ParticlesBg from 'particles-bg'
-import FaceRecognition from './components/FaceRecognition/FaceRecognition';
-import Navigation from './components/Navigation/Navigation';
-import Signin from './components/Signin/Signin';
-import Register from './components/Register/Register';
-import Logo from './components/Logo/Logo';
-import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
-import Rank from './components/Rank/Rank';
+import FaceRecognition from './components/FaceRecognition/FaceRecognition.js';
+import Navigation from './components/Navigation/Navigation.js';
+import Signin from './components/Signin/Signin.js';
+import Register from './components/Register/Register.js';
+import Logo from './components/Logo/Logo.js';
+import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm.js';
+import Rank from './components/Rank/Rank.js';
 import './App.css';
 
 const initialState = {
