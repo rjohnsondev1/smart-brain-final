@@ -65,7 +65,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('jocular-croquembouche-4b8a65.netlify.app', {
+      fetch('https://rjohnsondev1.github.io/smart-brain-final/', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -75,7 +75,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('jocular-croquembouche-4b8a65.netlify.app', {
+          fetch('https://rjohnsondev1.github.io/smart-brain-final/', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
